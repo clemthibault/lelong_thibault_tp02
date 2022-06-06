@@ -1,0 +1,16 @@
+.backgroundFooter {
+    position:absolute;
+    bottom:0;
+    height: 81px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.centrer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
