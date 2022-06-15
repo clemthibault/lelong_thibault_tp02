@@ -1,11 +1,20 @@
 import logo from './logo.svg';
 import './css/Footer.css';
+import Login from './pages/Login.js'
+import Register from './pages/Register.js';
 
 function App() {
 
   return (
 
+    <div>
 
+      < Login />
+      < Register />
+
+    </div>
+
+    /*
 
     <footer className="backgroundFooter">
       <div className="centrer">
@@ -29,6 +38,7 @@ function App() {
       </div>
     
     </footer>
+    */
   )
     
 }
