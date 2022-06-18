@@ -3,16 +3,19 @@ import '../css/Footer.css';
 import Login from './Login.js'
 import RegisterApp from './RegisterApp.js'
 import '../css/Allpage.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function LoginApp() {
+    let navigate = useNavigate();
+  
+    return (
 
-  return (
+   
 
     <div>
 
-      < Login />
-
+        < Login />
+        <button onClick={() => {navigate("/s'inscrire")}}>Créer son compte</button>
      
     
 
