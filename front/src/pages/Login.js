@@ -1,9 +1,19 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useCallback, useState } from "react"; 
 import { auth } from"../firebase";
-
+import { useNavigate } from "react-router-dom";
+import HomePage from './HomePage.js'
+import ErrorPage from "./ErrorPage";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Chat from './Chat.js'
+import { BrowserRouter } from "react-router-dom";
+import * as ReactDOM from "react-dom";
+import {createRoot} from 'react-dom/client';
 
 export default function Login() {
+    let navigate = useNavigate();
+
+
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
@@ -30,16 +40,23 @@ export default function Login() {
                 // Signed in 
                 const user = userCredential.user;
                 console.log(userCredential, user);
+               
+                window.location.href="/chat"
+                
+              
+
                 // ...
             })
             .catch((error) => {
                 setError(error.message);
                 // ..
+                
             });
         },
         [email, password,  setError]
     )
 
+    
     return (
 
     <div>

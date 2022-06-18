@@ -6,6 +6,7 @@ import './css/Allpage.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ErrorPage from './pages/ErrorPage.js';
 import HomePage from './pages/HomePage.js'
+import Chat from './pages/Chat.js';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/" element={<HomePage />}/>
         <Route path="/seconnecter" element={<LoginApp />}/>
         <Route path="/s'inscrire" element={<RegisterApp />}/>
+        <Route path='/chat' element={<Chat />}/>
 
         <Route path='*' element={<ErrorPage />} />
         </Routes>
