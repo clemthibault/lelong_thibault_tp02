@@ -44,19 +44,23 @@ export default function Login() {
 
     <div>
         <h1>Se connecter</h1>
+        < br/>< br/>
         <form onSubmit={handleSubmit}>
             <label>
                 Email: 
                 <input type="email" name="email" onChange={handleEmailChange} />
             </label>
-
+            < br/>
+            < br/>
             <label>
                 Password:
                 <input type="password" name="password" onChange={handlePasswordChange} />
             </label>
 
             {error && <p>{error}</p>}
-            <button type="submit">Login</button>
+            < br/>< br/>
+            <button type="submit">Enregister</button>
+            <p>Ou</p>
         </form>
     </div>
     )
