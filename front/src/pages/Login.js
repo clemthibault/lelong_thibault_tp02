@@ -43,7 +43,7 @@ export default function Login() {
     return (
 
     <div>
-        <h1>Login</h1>
+        <h1>Se connecter</h1>
         <form onSubmit={handleSubmit}>
             <label>
                 Email: 

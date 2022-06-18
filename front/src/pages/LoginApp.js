@@ -1,27 +1,18 @@
-import logo from './logo.svg';
-import './css/Footer.css';
-import LoginApp from './pages/LoginApp.js';
-import RegisterApp from './pages/RegisterApp.js'
-import './css/Allpage.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ErrorPage from './pages/ErrorPage.js';
 
-function App() {
+import '../css/Footer.css';
+import Login from './Login.js'
+import RegisterApp from './RegisterApp.js'
+import '../css/Allpage.css'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+function LoginApp() {
 
   return (
 
     <div>
 
+      < Login />
 
-      <Router>
-        <Routes>
-        <Route path="/seconnecter" element={<LoginApp />}/>
-        <Route path="/s'inscrire" element={<RegisterApp />}/>
-
-        <Route path='*' element={<ErrorPage />} />
-        </Routes>
-      </Router>
-    
      
     
 
@@ -59,5 +50,5 @@ function App() {
     
 }
 
-export default App;
+export default LoginApp;
 
