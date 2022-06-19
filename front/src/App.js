@@ -17,11 +17,12 @@ function App() {
       <Router>
 
         <nav>
-          <Link to="/">Page d'accueil</Link>
-          <Link to="/seconnecter">Se connecter</Link>
-          <Link to="/s'inscrire">S'inscrire'</Link>
+          <Link className='button-62' to="/">Page d'accueil</Link>
+          <Link className='button-62' to="/seconnecter">Se connecter</Link>
+          <Link className='button-62' to="/s'inscrire">S'inscrire'</Link>
         </nav>
 
+     
 
 
 
