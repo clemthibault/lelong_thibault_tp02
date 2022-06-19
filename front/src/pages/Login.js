@@ -9,6 +9,7 @@ import Chat from './Chat.js'
 import { BrowserRouter } from "react-router-dom";
 import * as ReactDOM from "react-dom";
 import {createRoot} from 'react-dom/client';
+import Footer from "./Footer.js";
 
 export default function Login() {
     let navigate = useNavigate();
@@ -40,7 +41,7 @@ export default function Login() {
                 // Signed in 
                 const user = userCredential.user;
                 console.log(userCredential, user);
-               
+               alert("Bravo, vous etes connecté. Appuyer sur ok pour être redirigé l'espace room du tchat..")
                 window.location.href="/chat"
                 
               
@@ -79,6 +80,8 @@ export default function Login() {
             <button type="submit">Enregister</button>
             <p>Ou</p>
         </form>
+
+        <div>< Footer/></div>
     </div>
     )
 

@@ -1,6 +1,7 @@
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { useCallback, useState } from "react"; 
 import { auth } from"../firebase";
+import Footer from "./Footer";
 
 
 export default function Register() {
@@ -62,6 +63,7 @@ export default function Register() {
             <button type="submit">Enregister</button>
             <p>Ou</p>
         </form>
+        <div><Footer /></div>
     </div>
     )
 
