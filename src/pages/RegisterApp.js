@@ -12,8 +12,9 @@ function RegisterApp() {
       <div>
   
         < Register />
-        <button onClick={() => {navigate("/seconnecter")}}>Après s'être enregistré, maintenant cliquer sur ce boutton pour se connecter avec les identifiants et mot de passes que vous venez de créer</button>
+        <button className='button-30' onClick={() => {navigate("/seconnecter")}}>Se connecter</button>
       
+      <p>Après s'être enregistré, maintenant cliquer sur ce boutton pour se connecter avec les identifiants et mot de passes que vous venez de créer</p>
   
       </div>
   

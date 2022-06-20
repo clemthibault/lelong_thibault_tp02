@@ -15,7 +15,7 @@ function LoginApp() {
     <div>
 
         < Login />
-        <button onClick={() => {navigate("/s'inscrire")}}>Créer son compte</button>
+        <button className='button-30' onClick={() => {navigate("/s'inscrire")}}>Créer son compte</button>
      
     
 

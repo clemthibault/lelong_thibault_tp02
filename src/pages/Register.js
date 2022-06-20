@@ -45,7 +45,7 @@ export default function Register() {
 
     <div>
         <h1>Créer son compte</h1>
-        < br/>< br/>
+        <img src="https://cdn.dribbble.com/userupload/2812120/file/original-7333c9ecbee0bba03f84e35eac1d2ffc.png?compress=1&resize=700x525&vertical=top" className="ImagePoissonDribble" />
         <form onSubmit={handleSubmit}>
             <label>
                 Email: 
@@ -60,7 +60,8 @@ export default function Register() {
 
             {error && <p>{error}</p>}
             < br/>< br/>
-            <button type="submit">Enregister</button>
+            <button type="submit" className="button-53">Enregister</button>
+            < br/><br />
             <p>Ou</p>
         </form>
         <div><Footer /></div>

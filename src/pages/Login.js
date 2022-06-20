@@ -61,7 +61,10 @@ export default function Login() {
 
     <div>
         <h1>Se connecter</h1>
-        < br/>< br/>
+        
+
+        <img src="https://cdn.dribbble.com/users/1320478/screenshots/18300402/media/69a954caa9f771cbf7671a29f7aaa70e.jpg?compress=1&resize=700x525&vertical=top" className="ImagePoissonDribble" />
+        <p></p>
         <form onSubmit={handleSubmit}>
             <label>
                 Email: 
@@ -76,7 +79,8 @@ export default function Login() {
 
             {error && <p>{error}</p>}
             < br/>< br/>
-            <button type="submit">Enregister</button>
+            <button  className="button-53" type="submit">Enregister</button>
+            < br/>< br/>< br/>
             <p>Ou</p>
         </form>
 
