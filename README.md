@@ -1,4 +1,4 @@
-Clémence Thibault et Ludovic Lelong
+Personnes du groupe [2] : Clémence Thibault et Ludovic Lelong
 
 
 On a eu un problème de Merge de fichier. On a donc créer 2 branches; qui ont deux utilités totalement différentes :
