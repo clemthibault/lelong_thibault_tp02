@@ -1,3 +1,6 @@
+Clémence Thibault et Ludovic Lelong
+
+
 On a eu un problème de Merge de fichier. On a donc créer 2 branches; qui ont deux utilités totalement différentes :
 -----------
 <h1><em>Pour les 2 on a utilisé firebase. Firebase authentificator et firestore de firebase pour stocker la donnée des messages</em></h1>
